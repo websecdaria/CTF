@@ -1,5 +1,7 @@
 ### O8: Performing an Exfil of a Filesystem
 
+**Task:**
+
 You have a solid foothold in The Lucky Lion's environment - now it's time to start poking around. Looking through more of the [emails from the account you compromised](https://target-httpd.chals.io/webmail/webmail-inbox.html), you see something interesting: a backup of a server was recently uploaded to a secure fileshare. You wager there could be some valuable information to sell if you can get those files, but the backup is password protected.
 
 To get you started, we've provided you with the host & port where we've noticed a password vault service running. You can connect to it with Netcat (`nc`) as shown at the bottom.
@@ -25,7 +27,7 @@ nc 0.cloud.chals.io 18529
 ```
 ---
 
-**Approach:**
+**Solution:**
 
 Connect to the Valuvault service via Netcat:
 
