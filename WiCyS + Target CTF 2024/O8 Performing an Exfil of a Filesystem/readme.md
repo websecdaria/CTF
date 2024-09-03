@@ -1,4 +1,4 @@
-### O8: Performing an Exfil of a Filesystem
+### O8 Performing an Exfil of a Filesystem
 
 **Task:**
 
